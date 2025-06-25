@@ -1,0 +1,230 @@
+
+﻿// INT32
+using System.ComponentModel.Design;
+
+int a;
+a = 12;
+Console.WriteLine(a);
+Console.WriteLine("New value for a");
+a = int.Parse(Console.ReadLine());
+Console.WriteLine("Another value for a");
+
+string? input = Console.ReadLine();
+if (int.TryParse(input, out int number))
+    Console.Write(number);
+else
+    Console.Write("Bad input");
+
+Console.WriteLine("Min value for a");
+Console.WriteLine(Int32.MinValue);
+Console.WriteLine("Max value for a");
+Console.WriteLine(Int32.MaxValue);
+
+//byte
+byte b;
+b = 24;
+Console.WriteLine(b);
+Console.WriteLine("New value for b");
+
+b = byte.Parse(Console.ReadLine());
+Console.WriteLine("Another value for b");
+
+ string? input2 = Console.ReadLine();
+if (byte.TryParse(input2, out byte number2))
+    Console.WriteLine(number2);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("min value for b");
+Console.WriteLine(byte.MinValue);
+Console.WriteLine("Max value for b");
+Console.WriteLine(byte.MaxValue);
+
+//sbyte
+sbyte sb;
+sb = -50;
+Console.WriteLine(sb);
+Console.WriteLine("New value for sb");
+
+sb = sbyte.Parse(Console.ReadLine());
+Console.WriteLine("Another value for sb");
+
+string? input3 = Console.ReadLine();
+if (sbyte.TryParse(input3, out sbyte number3))
+    Console.WriteLine(number3);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("min value for sb");
+Console.WriteLine(sbyte.MinValue);
+Console.WriteLine("max value for sb");
+Console.WriteLine(sbyte.MaxValue);
+
+//short
+short sh;
+sh = 21;
+Console.WriteLine(sh);
+Console.WriteLine("New value for sh");
+
+sh = short.Parse(Console.ReadLine());
+Console.WriteLine("another value for sb");
+
+string? input4 = Console.ReadLine();
+if (short.TryParse(input4, out short number4))
+    Console.WriteLine(number4);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("min value for sh");
+Console.WriteLine(Int16.MinValue);
+Console.WriteLine("max value for sh");
+Console.WriteLine(Int16.MaxValue);
+
+//ushort
+ushort ush;
+ush = 33;
+Console.WriteLine(ush);
+Console.WriteLine("New value for ush");
+
+ush = ushort.Parse(Console.ReadLine());
+Console.WriteLine("Another value for ush");    
+
+string? input5 = (Console.ReadLine());    
+if (ushort.TryParse(input5, out ushort number5))
+    Console.WriteLine(number5);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for ush");
+Console.WriteLine(UInt32.MinValue);
+Console.WriteLine("Max value for ush");
+Console.WriteLine(UInt32.MaxValue);
+
+//long 
+long l;
+l = 1000000;
+Console.WriteLine(l);
+Console.WriteLine("New value for l");
+l = long.Parse(Console.ReadLine());
+Console.WriteLine("Another value for l");
+
+string? input6 = Console.ReadLine();
+ if(long.TryParse(input6, out long number6))
+    Console.WriteLine(number6);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for l");   
+Console.WriteLine(Int64.MinValue);
+Console.WriteLine("Max value for l");
+Console.WriteLine(Int64.MaxValue);
+
+//ulong
+ulong ul;
+ul = 180000;
+Console.WriteLine(ul);
+Console.WriteLine("New value for ul");
+ul = ulong.Parse(Console.ReadLine());
+Console.WriteLine("Another value for ul");
+string? input7 = Console.ReadLine();
+if (ulong.TryParse(input7, out ulong number7))
+    Console.WriteLine(number7);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for ul");
+Console.WriteLine(UInt64.MinValue);
+Console.WriteLine("Max value for ul");
+Console.WriteLine(UInt64.MaxValue);
+
+//float
+float f;
+f = 3.14F;
+Console.WriteLine(f);
+Console.WriteLine("New value for f");
+   f = float.Parse(Console.ReadLine());
+Console.WriteLine("Another value for f");
+string? input8 = Console.ReadLine();
+if (float.TryParse(input8, out float number8))
+    Console.WriteLine(number8);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for f");
+Console.WriteLine(Single.MinValue);
+Console.WriteLine("Max value for f");
+Console.WriteLine(Single.MaxValue);
+
+//double
+double d;
+d = 3.14;
+Console.WriteLine(d);
+Console.WriteLine("New value for d");
+d = double.Parse(Console.ReadLine());   
+Console.WriteLine("Another value for d");
+string? input9 = Console.ReadLine();
+   if (double.TryParse(input9, out double number9))
+    Console.WriteLine(number9);
+   else
+    Console.WriteLine("Bad number");
+
+   Console.WriteLine("Min value for d");
+   Console.WriteLine(Double.MinValue);
+   Console.WriteLine("Max value for d");
+   Console.WriteLine(Double.MaxValue);
+
+//decimal
+decimal dec;
+dec = 3.14M;
+Console.WriteLine(dec);
+Console.WriteLine("New value for dec");
+dec = decimal.Parse(Console.ReadLine());
+Console.WriteLine("Another value for dec");
+string? input10 = Console.ReadLine();
+if (decimal.TryParse(input10, out decimal number10))
+    Console.WriteLine(number10);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for dec"); 
+Console.WriteLine(Decimal.MinValue);
+Console.WriteLine("Max value for dec");
+Console.WriteLine(Decimal.MaxValue);
+
+//char
+char c;
+c = 'A';
+Console.WriteLine(c);
+Console.WriteLine("New value for c");
+c = char.Parse(Console.ReadLine());
+Console.WriteLine("Another value for c");
+
+string? input11 = Console.ReadLine();
+if (char.TryParse(input11, out char number11))
+    Console.WriteLine(number11);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for c");   
+Console.WriteLine(Char.MinValue);
+Console.WriteLine("Max value for c");
+Console.WriteLine(Char.MaxValue);
+
+//bool
+bool b1;
+b1 = true;
+Console.WriteLine(b1);
+Console.WriteLine("New value for b1");
+b1 = bool.Parse(Console.ReadLine());
+Console.WriteLine("Another value for b1");
+string? input12 = Console.ReadLine();
+  if (bool.TryParse(input12, out bool number12))
+    Console.WriteLine(number12);
+else
+    Console.WriteLine("Bad number");
+
+Console.WriteLine("Min value for b1");
+Console.WriteLine(Boolean.FalseString);
+Console.WriteLine("Max value for b1");
+Console.WriteLine(Boolean.TrueString);
+
